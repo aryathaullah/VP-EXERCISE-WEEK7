@@ -29,12 +29,12 @@ android {
         buildConfigField(
             "String",
             "POKEMON_API_KEY",
-            secrets.getProperty("POKEMON_API_KEY", "").asBuildConfigString()
+            secrets.getProperty("POKEMON_API_KEY", "pokeprice_free_7deae429ff091db6d7ea87ea0fd432d85aa038f08d9e2156").asBuildConfigString()
         )
         buildConfigField(
             "String",
             "THEAUDIODB_API_KEY",
-            secrets.getProperty("THEAUDIODB_API_KEY", "123").asBuildConfigString()
+            secrets.getProperty("THEAUDIODB_API_KEY", "523532").asBuildConfigString()
         )
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
